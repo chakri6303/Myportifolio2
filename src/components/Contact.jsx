@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_s56yjw7',
+        'template_3e1jbny',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Rama krishna",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "chakripclogin@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'cnTYdzXOySlKeRH3d'
       )
       .then(
         () => {
@@ -113,13 +113,14 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+
         </form>
       </motion.div>
 
@@ -130,6 +131,7 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    
   );
 };
 

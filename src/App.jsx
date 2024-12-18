@@ -14,11 +14,15 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Footer/> */}
+        {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
+        <footer>
+            <p>&copy; 2024 Rama Krishna | All Rights Reserved.</p>
+          </footer>
       </div>
     </BrowserRouter>
   );

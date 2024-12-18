@@ -18,6 +18,15 @@
   padding-bottom: 100px;
   display: block;
 }
+footer {
+  text-align: center;
+  color: #ffffff; /* Text color */
+  font-size: 14px;
+  /* position: fixed; Or 'relative' for static positioning */
+  bottom: 0;
+  width: 100%;
+}
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
@@ -76,6 +85,21 @@
     to top,
     #11998e,
     #38ef7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-text-gradient {
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f7971e,
+    #ffd200
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f7971e,
+    #ffd200
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

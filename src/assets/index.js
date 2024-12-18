@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
+import logo1 from "./logo1.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,6 +8,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
+import firebase from "./tech/firebase.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import android from "./tech/android.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,24 +27,32 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import codeway from "./company/codeway.jpeg";
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import google from "./company/google.png";
+import shopify from "./company/google.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tesla from "./company/tefo.png";
 
+import carrent2 from "./carrent2.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tripguide2 from "./tripguide2.png";
 
 export {
   logo,
   backend,
   creator,
+  carrent2,
   mobile,
   web,
+  android,
   github,
+  firebase,
   menu,
   close,
+  logo1,
   css,
   docker,
   figma,
@@ -47,7 +61,7 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
+  reactjs,  
   redux,
   tailwind,
   typescript,
@@ -56,7 +70,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  codeway,
   carrent,
   jobit,
+  google,
   tripguide,
+  tripguide2,
+  java,
+  python,
 };

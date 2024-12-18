@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  android,
   web,
   javascript,
   typescript,
@@ -13,16 +14,20 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  python,
+  java,
+  tripguide2,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
+  carrent2,
   jobit,
   tripguide,
   threejs,
+  firebase,
+  codeway,
 } from "../assets";
 
 export const navLinks = [
@@ -60,6 +65,23 @@ const services = [
 ];
 
 const technologies = [
+  
+  {
+    name:"Android",
+    icon: android,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name:"Python",
+    icon: python,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -81,90 +103,65 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
+  // {
+  //   title: "Full stack developer",
+  //   company_name: "Batalks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "November 2024 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Android Developer Intern",
+    company_name: "Tefologic",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2024 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of innovative mobile applications, enhancing user experiences by implementing new features.",
+      "Applied advanced knowledge in Android development, utilizing Java and XML to optimize app performance.",
+      "Integrated new APIs to expand app functionality and ensure seamless operation.",
+
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+  { 
+    title: "Android Developer Intern",
+    company_name: "Google",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2024 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engaged in high-impact Android app development projects, collaborating closely with teams to deliver innovative solutions.",
+      "Demonstrated strong problem-solving skills and contributed to technical innovations.",
+      "Actively participated in continuous learning and development initiatives."
+,
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Android Developer Intern",
+    company_name: "Codeway Solutions",
+    icon: codeway,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2024 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to multiple mobile app development projects, actively engaging in code reviews and collaborating effectively with cross-functional teams.",
+      "Engaged in continuous learning through training sessions on the latest technologies.",
+      "Contributed to innovation and excellence in a dynamic work environment.",
     ],
   },
 ];
@@ -197,68 +194,131 @@ const testimonials = [
 ];
 
 const projects = [
+  
   {
-    name: "Car Rent",
+    name: "Blood-Donation",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a blood donation app to connect donors and recipients. Implemented features like user registration, blood group matching, profiles.Focused on performance and usability to deliver a seamless experience.",
     tags: [
       {
-        name: "react",
+        name: "android studio",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "xml",
         color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "yellow-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/chakri6303/Blood_Bank",
   },
   {
-    name: "Job IT",
+    name: "Public News",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed and developed a user-friendly news app with XML and Material Design for smooth navigation and reading. Ensured performance optimization for real-time updates and efficient content delivery.",
     tags: [
       {
-        name: "react",
+        name: "android Studio",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "xml",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: carrent2,
+    source_code_link: "https://github.com/chakri6303/Public_news_app",
   },
   {
-    name: "Trip Guide",
+    name: "Mentor Mate",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed an Mentor Mate app to streamline communication within educational institutions.This solution improves classroom interactions, enhances engagement, and simplifies management for all users.",
     tags: [
       {
-        name: "nextjs",
+        name: "android studio",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "xml",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/chakri6303/Public_news_app",
+  },
+  {
+    name: "Nike Store",
+    description:
+      "The Nike Shoe Store project is a modern and responsive web application that showcases a collection of Nike shoes. It allows users to browse different shoe models and view detailed information about each product.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/chakri6303/Nike-store",
+  },
+  {
+    name: "My portifolio",
+    description:
+      "I built a responsive portfolio website using React.js to showcase my projects, skills, and achievements. This project highlights my expertise in React.js and modern web development practices.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "html",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tripguide2,
+    source_code_link: "https://github.com/chakri6303/Myportfolio",
   },
 ];
 
